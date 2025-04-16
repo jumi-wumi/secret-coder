@@ -1,0 +1,5 @@
+.easter-gradient {
+  background: linear-gradient(#ffff33, #ffaa33);
+  background-clip: text;
+  color: transparent;
+}
