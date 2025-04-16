@@ -1,4 +1,13 @@
 
+#lista {
+  letter-spacing: 1px;
+  color: red;
+}
+
+#lista i {
+  color: black;
+  font-size: 24px;
+}
 .easter-gradient {
   background: linear-gradient(#ffff33, #ffaa33);
   background-clip: text;
