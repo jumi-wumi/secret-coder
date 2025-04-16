@@ -3,14 +3,30 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+
+  background: linear-gradient(270deg, #ff6a00, #ff70f5, #ff6a00);
+  background-size: 600% 600%;
+  animation: gradientFlow 15s ease infinite;
+}
+
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .citat {
-  border: 1px solid lightpink;
   box-shadow: 20px 20px 20px 10px lightpink;
   text-align: center;
   border-radius: 20px;
   padding: 2rem;
+  background-color: #ffffff5d;
 }
 
 h1 {
