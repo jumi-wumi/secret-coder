@@ -1,0 +1,40 @@
+.centerbody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.knapp {
+  border: 1rem;
+  padding: 2rem;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.knapp:hover {
+  background-color: blueviolet;
+  transition-duration: 2ms;
+}
+
+.knapp:active {
+  transform: scale(1.2);
+}
+
+.xcard {
+  width: 800px;
+  height: 400px;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  border: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.titel {
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
