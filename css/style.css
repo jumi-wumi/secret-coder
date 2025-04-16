@@ -1,0 +1,50 @@
+
+#lista {
+  letter-spacing: 1px;
+  color: red;
+}
+
+#lista i {
+  color: black;
+  font-size: 24px;
+}
+.easter-gradient {
+  background: linear-gradient(#ffff33, #ffaa33);
+  background-clip: text;
+  color: transparent;
+}
+
+.btn-scroll {
+  border: none;
+  background-color: #444;
+  border-radius: 8px;
+  color: #f8f8f8;
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  font-weight: bold;
+  cursor: pointer;
+  transform: translateX(-50%);
+  padding: 1rem 2rem;
+}
+
+.btn-scroll:hover {
+  background-color: #666;
+}
+
+.shadow-btn {
+    background-color: #2ecc71;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+  }
+
+.shadow-btn:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0 , 0.2);
+    background-color: #ff0000;
+}
+
