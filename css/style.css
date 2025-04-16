@@ -1,0 +1,15 @@
+.shadow-btn {
+    background-color: #2ecc71;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+  }
+
+.shadow-btn:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0 , 0.2);
+    background-color: #ff0000;
+}
